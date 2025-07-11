@@ -2,10 +2,8 @@ name: Release
 
 on:
    push:
-     branches: [main]  # 主分支推送时触发
      tags: 
        - 'v*.*.*'  # 版本标签推送时触发发布
-
 
 jobs:
   Release:
